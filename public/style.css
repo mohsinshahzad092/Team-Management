@@ -1,0 +1,52 @@
+*{
+
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* body{
+    background-image: url(/Images/bg-01.jpg);
+    
+
+} */
+.container{
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    justify-items: center;
+}
+/* .maindiv{ */
+    /* text-align: center; */
+    /* width: 100vw; */
+    /* justify-items: center; */
+/* } */
+fieldset{
+
+    font-size: 25px;
+    font-weight: 700;
+    height: 90vh;
+    width: 90vw;
+
+}
+
+input{
+
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 20px;
+}

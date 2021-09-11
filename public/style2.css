@@ -1,0 +1,56 @@
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+    margin-top: 30px !important;
+  }
+  
+  legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+    margin-top: -15px;
+    background-color: white;
+    color: black;
+  }
+
+  .box{
+
+    border: 1px solid gray ;
+    padding: 20px;
+    margin: 25px;
+  }
+
+  /* label {
+    display: flex;
+    justify-content: right;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+} */
+.email{
+
+  background-color: rgb(209, 209, 209);
+  width: 270px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px;
+}
+#email{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+  
+
+}

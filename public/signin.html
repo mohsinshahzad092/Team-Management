@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD7Y_4Z17A2lXhwylQPaCR3vlB4GZZb1MY",
+            authDomain: "login-web-application-d52c8.firebaseapp.com",
+            projectId: "login-web-application-d52c8",
+            storageBucket: "login-web-application-d52c8.appspot.com",
+            messagingSenderId: "489573133651",
+            appId: "1:489573133651:web:90200acbd23671df0445a6",
+            measurementId: "G-7231FB82PW"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>Signin</legend>
+
+            <h1>Sign in</h1>
+            <input type="email" id="loginid" name="userName" placeholder="Email"><br><br>
+            <input type="password" id="loginpassword" name="Password" placeholder="Password"><br><br>
+            <button id="signinBtn" onclick="signin()">Signin</button>
+            <p>If you Want to register<a href="/index.html">Click Here</a></p>
+        </fieldset>
+    </div>
+
+  
+</body>
+<script src="app.js"></script>
+
+
+</html>
